@@ -5,8 +5,12 @@
 
 // However, it seems that it doesn't work? Fix your friend's code so that it actually does remove all vowels.
 
+
 function removeVowels(str) {
     return str.replace(/[aeiou]/gi, '')
 }
 
 console.log(removeVowels("apple"));
+
+// g modifier is global, all matches
+// i modifier is case-insensitive, a-A
