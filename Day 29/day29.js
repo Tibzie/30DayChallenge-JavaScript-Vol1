@@ -11,9 +11,8 @@ On the other hand, swapping 43 gives us 34, and 43 > 34. */
 
 
 function largestSwap(num) {
-    // let num2 = num.toString().split('').reverse().join('');
-    // return num >= num2 ? true : false;
-    return num / 10 > num % 10
+    let num2 = num.toString().split('').reverse().join('');
+    return num >= num2 ? true : false;
 }
 
 console.log(largestSwap(23));
